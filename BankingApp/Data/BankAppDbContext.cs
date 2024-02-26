@@ -12,4 +12,5 @@ using Microsoft.EntityFrameworkCore;
         }
 
         public DbSet<Customer> Customer { get; set; } = default!;
+        public DbSet<Transaction> Transaction {get;set;} = default;
     }
